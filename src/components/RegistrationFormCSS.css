@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://acheinu.co.il/wp-content/uploads/2018/05/5657.jpg');
+    background-size: cover; /* התמונה תמלא את כל העמוד */
+    background-position: center; /* מרכז התמונה */
+    background-repeat: no-repeat; /* התמונה לא תחזור על עצמה */
+  }
+  
+  #box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* רקע לבן עם שקיפות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 48%; /* גודל אחיד של כפתורים */
+    padding: 10px;
+    margin: 10px 1%; /* ריווח בין הכפתורים */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:first-of-type {
+    background-color: #4caf50; /* צבע ירוק עבור הרשמה */
+  }
+  
+  button:first-of-type:hover {
+    background-color: #45a049;
+  }
+  
+  button:last-of-type {
+    background-color: #2196f3; /* צבע כחול עבור התחברות */
+  }
+  
+  button:last-of-type:hover {
+    background-color: #1e88e5;
+  }
+  
+  p {
+    text-align: center;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-top: 10px;
+  }

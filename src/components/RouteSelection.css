@@ -1,0 +1,50 @@
+/* קובץ CSS לדף בחירת מסלול */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc; /* צבע רקע בהיר */
+    color: #333; /* צבע טקסט כהה */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center; /* מרכז את הכותרת */
+    color: #2c3e50; /* צבע כהה לכותרת */
+  }
+  
+  p {
+    text-align: center; /* מרכז את הטקסט */
+    margin-bottom: 20px; /* רווח בין פסקאות */
+  }
+  
+  #fixedRoute {
+    display: flex;
+    justify-content: center; /* מרכז את התוכן במרכז */
+    gap: 40px; /* רווח בין הקוביות */
+  }
+  
+  div {
+    background-color: #ffffff; /* צבע רקע של קוביות */
+    border: 1px solid #ddd; /* גבול בהיר */
+    border-radius: 8px; /* פינות מעוגלות */
+    padding: 20px; /* רווח פנימי */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* צל עדין */
+    text-align: center; /* מרכז את הטקסט בתוך הקוביה */
+  }
+  
+  button {
+    background-color: #3498db; /* צבע רקע של הכפתור */
+    color: white; /* צבע טקסט לבן */
+    border: none; /* ללא גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+    padding: 10px 20px; /* רווח פנימי של הכפתור */
+    cursor: pointer; /* יד מחזיקה כשעוברים מעל הכפתור */
+    font-size: 16px; /* גודל טקסט בכפתור */
+    transition: background-color 0.3s; /* אנימציה לשינוי צבע */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* צבע רקע שונה כשעוברים מעל */
+  }
+  
